@@ -52,7 +52,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-04-16 23:01:56'
+  postUpdate: '2023-04-19 23:35:49'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -156,122 +156,190 @@
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/config/avatar/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">22</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-paper-plane"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/config/pages/01index.png')"><nav id="nav"><span id="blog-info"><a href="/" title="狼族少年、血狼"><span class="site-name">狼族少年、血狼</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-paper-plane"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">狼族少年、血狼</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2023/04/16/%E6%89%8B%E5%86%99LRU%E7%AE%97%E6%B3%95.html" title="手写LRU算法"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E6%89%8B%E5%86%99LRU%E7%AE%97%E6%B3%95/00cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="手写LRU算法"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/16/%E6%89%8B%E5%86%99LRU%E7%AE%97%E6%B3%95.html" title="手写LRU算法">手写LRU算法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-16T14:49:44.000Z" title="发表于 2023-04-16 22:49:44">2023-04-16</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-16T14:59:31.192Z" title="更新于 2023-04-16 22:59:31">2023-04-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%89%8B%E5%86%99%E7%B3%BB%E5%88%97/">手写系列</a></span></div><div class="content">功能设计并实现一个满足  LRU (最近最少使用) 缓存 约束的数据结构。
-实现 LRUCache 类：
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.min.css"/><script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/config/avatar/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">54</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-paper-plane"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/config/pages/01index.png')"><nav id="nav"><span id="blog-info"><a href="/" title="狼族少年、血狼"><span class="site-name">狼族少年、血狼</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-paper-plane"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">狼族少年、血狼</h1><div id="site-subtitle"><span id="subtitle"></span></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2023/03/23/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E2%80%94%E2%80%94%E4%BB%8E%E4%BB%98%E8%B4%B9%E5%88%B0%E7%99%BD%E5%AB%96%E7%9A%84%E6%9E%81%E8%87%B4%E4%BD%93%E9%AA%8C.html" title="hexo博客搭建——从付费到白嫖的极致体验"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E2%80%94%E2%80%94%E4%BB%8E%E4%BB%98%E8%B4%B9%E5%88%B0%E7%99%BD%E5%AB%96%E7%9A%84%E6%9E%81%E8%87%B4%E4%BD%93%E9%AA%8C/01cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="hexo博客搭建——从付费到白嫖的极致体验"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/03/23/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E2%80%94%E2%80%94%E4%BB%8E%E4%BB%98%E8%B4%B9%E5%88%B0%E7%99%BD%E5%AB%96%E7%9A%84%E6%9E%81%E8%87%B4%E4%BD%93%E9%AA%8C.html" title="hexo博客搭建——从付费到白嫖的极致体验">hexo博客搭建——从付费到白嫖的极致体验</a><div class="article-meta-wrap"><span class="article-meta"><i class="fas fa-thumbtack sticky"></i><span class="sticky">置顶</span><span class="article-meta-separator">|</span></span><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-03-23T08:22:30.000Z" title="发表于 2023-03-23 16:22:30">2023-03-23</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-16T15:49:57.611Z" title="更新于 2023-04-16 23:49:57">2023-04-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA/">网站搭建</a></span></div><div class="content">由于自建的博客网站域名和服务器即将到期，本人无力续费，因此选择hexo框架重建网站，主题选用轻量美观的hexo-theme-butterfly。这里记录一下搭建过程，主要感受一下从付费到白嫖的极致体验。
 
-LRUCache(int capacity) 以 正整数 作为容量 capacity 初始化 LRU 缓存
-int get(int key) 如果关键字 key 存在于缓存中，则返回关键字的值，否则返回 -1 。
-void put(int key, int value) 如果关键字 key 已经存在，则变更其数据值 value ；如果不存在，则向缓存中插入该组 key-value 。如果插入操作导致关键字数量超过 capacity ，则应该 逐出 最久未使用的关键字。
+更新一下，由于托管图片加载速度较慢影响体验，后续更改为阿里云oss存储，有少量成本
 
-函数 get 和 put 必须以 O(1) 的平均时间复杂度运行。
-思路LRU缓存机制可以通过哈希表辅以双向链表实现，我们用一个哈希表和一个双向链表维护所有在缓存中的键值对。
-双向链表按照被使用的顺序存储了这些键值对，靠近头部的键值对是最近使用的，而靠近尾部的键值对是最久未使用的。
-哈希表即为普通的哈希映射（HashMap），通过缓存数据的键映射到其在双向链表中的位置。
-这样以来，我们首先使用哈希表进行定位，找出 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E5%85%AD%E7%AB%A0%E3%80%91%EF%BC%9AOTHER.html" title="Spring高级45讲【第六章】：OTHER"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E5%85%AD%E7%AB%A0%E3%80%91%EF%BC%9AOTHER/00cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Spring高级45讲【第六章】：OTHER"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E5%85%AD%E7%AB%A0%E3%80%91%EF%BC%9AOTHER.html" title="Spring高级45讲【第六章】：OTHER">Spring高级45讲【第六章】：OTHER</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-15T15:10:14.000Z" title="发表于 2023-04-15 23:10:14">2023-04-15</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-15T15:22:31.822Z" title="更新于 2023-04-15 23:22:31">2023-04-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/">原理探究</a></span></div><div class="content">FactoryBeanFactoryBean是一个工厂Bean，是用来产生产品对象的，FactoryBean本身是由spring管理的，但其产生的产品类却是部分受到srping的管理，为什么这么说呢？下面做一个试验：
-创建一个Bean2，由spring进行管理：
-123@Componentpublic class Bean2 &#123;&#125;
+博客搭建hexo框架
+官方文档介绍得非常详细，从安装、部署到基本指令以及自定义配置等，请仔细阅读。
+butterfly主题
+这里我们贴出butterfly主题的官方使用文档，非常详细，建议每个文档仔细阅读：
 
-创建一个Bean1，注意不直接交由spring管理，没有加@Component注解，但实现了BeanFactoryAware接口，我们看看在Bean1创建的各个时期会不会回调实现的方法。
-12345678910111213141516171819202122232425public class Bean1 implements BeanFactoryAware &#123;    private static final Logger log = LoggerFactory.getLogger(Bean1.class);    private Bean2 bean2;    @Autowired    public void setBe ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%BA%94%E7%AB%A0%E3%80%91%EF%BC%9ABOOT.html" title="Spring高级45讲【第五章】：BOOT"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%BA%94%E7%AB%A0%E3%80%91%EF%BC%9ABOOT/01cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Spring高级45讲【第五章】：BOOT"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%BA%94%E7%AB%A0%E3%80%91%EF%BC%9ABOOT.html" title="Spring高级45讲【第五章】：BOOT">Spring高级45讲【第五章】：BOOT</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-15T14:40:40.000Z" title="发表于 2023-04-15 22:40:40">2023-04-15</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-15T15:06:58.237Z" title="更新于 2023-04-15 23:06:58">2023-04-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/">原理探究</a></span></div><div class="content">构建Boot项目传统方式生成使用IntelliJ IDEA软件，点击文件-&gt;新建-&gt;项目
+Butterfly 安装文档(一) 快速开始
+Butterfly 安装文档(二) 主题页面
+Butterfly 安装文档(三) 主题配置-1
+Butterfly 安装文档(四) 主题配置-2
+Butterfly 进阶教程
 
-左侧选择Spring Initializr，右侧设置项目信息，点击下一步
+常用命令这里整理一下常用命令，完整命令移步到 hexo框架文档 查看
 
-选择Spring Boot版本，添加依赖
+new
 
-点击创建
+1hexo new [layout] &lt;title&gt;
 
-SpringBoot项目构建成功，但是我们发现项目中会有很多额外的文件，例如.mvn文件夹、mvnw、mvnw.cmd等文件。
-快捷方式生成使用以下命令获取pom.xml：
-1curl https://start.spring.io/pom.xml
+新建一篇文章。如果没有设置 layout 的话，默认使用 _config.yml 中的 default_layout 参数代 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2023/04/19/%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2-II.html" title="零钱兑换 II"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2%20II/00cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="零钱兑换 II"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/19/%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2-II.html" title="零钱兑换 II">零钱兑换 II</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-19T15:31:42.000Z" title="发表于 2023-04-19 23:31:42">2023-04-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-19T15:33:40.722Z" title="更新于 2023-04-19 23:33:40">2023-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0/">算法练习</a></span></div><div class="content">题目描述
+题目链接：518. 零钱兑换 II
 
-控制台输出：
-1234567891011121314151617181920212223242526272829303132333435363738394041&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E5%9B%9B%E7%AB%A0%E3%80%91%EF%BC%9AWEB.html" title="Spring高级45讲【第四章】：WEB"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E5%9B%9B%E7%AB%A0%E3%80%91%EF%BC%9AWEB/01cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Spring高级45讲【第四章】：WEB"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E5%9B%9B%E7%AB%A0%E3%80%91%EF%BC%9AWEB.html" title="Spring高级45讲【第四章】：WEB">Spring高级45讲【第四章】：WEB</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-15T14:06:32.000Z" title="发表于 2023-04-15 22:06:32">2023-04-15</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-15T14:25:52.925Z" title="更新于 2023-04-15 22:25:52">2023-04-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/">原理探究</a></span></div><div class="content">DispatcherServlet及其重要组件DispatcherServlet初始化我们使用可支持内嵌web服务器的容器实现AnnotationConfigServletWebServerApplicationContext，这个容器不仅支持内嵌web服务器，也支持注解配置。
-演示代码：
-1234567891011121314151617181920212223242526272829public class A20 &#123;    private static final Logger log = LoggerFactory.getLogger(A20.class);    public static void main(String[] args) throws Exception &#123;        AnnotationConfigServletWebServerApplicationContext context =                new AnnotationConfigServletWebServerApplicationContext(WebC ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%B8%89%E7%AB%A0%E3%80%91%EF%BC%9AAOP.html" title="Spring高级45讲【第三章】：AOP"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%B8%89%E7%AB%A0%E3%80%91%EF%BC%9AAOP/01cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Spring高级45讲【第三章】：AOP"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%B8%89%E7%AB%A0%E3%80%91%EF%BC%9AAOP.html" title="Spring高级45讲【第三章】：AOP">Spring高级45讲【第三章】：AOP</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-15T13:34:57.000Z" title="发表于 2023-04-15 21:34:57">2023-04-15</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-15T13:40:46.213Z" title="更新于 2023-04-15 21:40:46">2023-04-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/">原理探究</a></span></div><div class="content">代理增强方式aspectj编译器增强先看一组例子：
-pom.xml文件中增加插件：
-123456789101112131415161718192021222324&lt;plugin&gt;    &lt;groupId&gt;org.codehaus.mojo&lt;/groupId&gt;    &lt;artifactId&gt;aspectj-maven-plugin&lt;/artifactId&gt;    &lt;version&gt;1.14.0&lt;/version&gt;    &lt;configuration&gt;        &lt;complianceLevel&gt;1.8&lt;/complianceLevel&gt;        &lt;source&gt;8&lt;/source&gt;        &lt;target&gt;8&lt;/target&gt;        &lt;showWeaveInfo&gt;true&lt;/showWeaveInfo&gt;        &lt;verbose&gt;true&lt;/verbo ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%BA%8C%E7%AB%A0%E3%80%91%EF%BC%9AIOC.html" title="Spring高级45讲【第二章】：IOC"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%BA%8C%E7%AB%A0%E3%80%91%EF%BC%9AIOC/01cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Spring高级45讲【第二章】：IOC"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%BA%8C%E7%AB%A0%E3%80%91%EF%BC%9AIOC.html" title="Spring高级45讲【第二章】：IOC">Spring高级45讲【第二章】：IOC</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-15T12:12:45.000Z" title="发表于 2023-04-15 20:12:45">2023-04-15</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-15T12:53:13.666Z" title="更新于 2023-04-15 20:53:13">2023-04-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/">原理探究</a></span></div><div class="content">容器接口以SpringBoot的启动类为例：
-123456@SpringBootApplicationpublic class A01&#123;    public static void main(String[] args) &#123;        SpringApplication.run(A01.class, args);    &#125;&#125;
+给你一个整数数组 coins 表示不同面额的硬币，另给一个整数 amount 表示总金额。
+请你计算并返回可以凑成总金额的硬币组合数。如果任何硬币组合都无法凑出总金额，返回 0 。
+假设每一种面额的硬币有无限个。
+题目数据保证结果符合 32 位带符号整数。
+示例1：
+1234567输入：amount = 5, coins = [1, 2, 5]输出：4解释：有四种方式可以凑成总金额：5=55=2+2+15=2+1+1+15=1+1+1+1+1
 
-容器启动的run()方法是有返回值的：
-1ConfigurableApplicationContext context = SpringApplication.run(A01.class, args);
+示例2：
+123输入：amount = 3, coins = [2]输出：0解释：只用面额 2 的硬币不能凑成总金额 3 。
 
-在 IDEA 中使用快捷键Ctrl +Alt +U查看 ConfigurableApplicationContext 类的类图:
+示例2：
+12输入：amount = 10, coins = [10] 输出：1
 
-ConfigurableApplicationContext接口继承了ApplicationContext接口，而
-ApplicationContext 接口又间接地继承了BeanFactory 接口，除此之外还继承了其他很多接口，相当于对BeanFactory 进行了拓展。
-到底什么是 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%B8%80%E7%AB%A0%E3%80%91%EF%BC%9A%E5%AF%BC%E5%AD%A6.html" title="Spring高级45讲【第一章】：导学"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%B8%80%E7%AB%A0%E3%80%91%EF%BC%9A%E5%AF%BC%E5%AD%A6/01cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Spring高级45讲【第一章】：导学"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/15/Spring%E9%AB%98%E7%BA%A745%E8%AE%B2%E3%80%90%E7%AC%AC%E4%B8%80%E7%AB%A0%E3%80%91%EF%BC%9A%E5%AF%BC%E5%AD%A6.html" title="Spring高级45讲【第一章】：导学">Spring高级45讲【第一章】：导学</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-15T12:07:49.000Z" title="发表于 2023-04-15 20:07:49">2023-04-15</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-15T12:30:00.279Z" title="更新于 2023-04-15 20:30:00">2023-04-15</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/">原理探究</a></span></div><div class="content">参考视频：黑马程序员Spring视频教程，深度讲解spring5底层原理
-源码仓库：spring-test
-学习Spring的必须性？
+提示：
 
-Spring是整个Java体系最核心的框架，没有之一
-面试必备(spring的核心原理、springmvc的执行流程、springboot的自动装配…)
-技术、思想提升(设计模式、高新技术发展…)
+1 &lt;= coins.length &lt;= 300
+1 &lt;= coins[i] &lt;= 5000
+coins 中的所有值 互不相同
+0 &lt;= amount &lt;= 5000
 
-阅读源码的错误姿势？
+我的题解方法一：01背包思想思路设dp[i][j]为在前i个银币中凑成金额 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2023/04/19/%E4%B8%80%E5%92%8C%E9%9B%B6.html" title="一和零"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E4%B8%80%E5%92%8C%E9%9B%B6/00cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="一和零"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/19/%E4%B8%80%E5%92%8C%E9%9B%B6.html" title="一和零">一和零</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-19T15:28:37.000Z" title="发表于 2023-04-19 23:28:37">2023-04-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-19T15:30:34.440Z" title="更新于 2023-04-19 23:30:34">2023-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0/">算法练习</a></span></div><div class="content">题目描述
+题目链接：474. 一和零
 
-对Spring功能还不了解，还不会用呢，却要强读。不要轻易装B，轻则耗费心神，重则挫败放弃。先会用，再研究。
-没有目的，一上来就debug，看到哪分析到哪。没有目的的debug，会让你迷失在源码当中，翻一百遍也是枉然。明确要研究的问题，带着问题看代码。
-不分主次，分析一个问题时，引入另一个陌生问题。抓住重点，逐个击破。
-只讲源码功能，不做单元测试。眼过千遍，不如手过一遍
+给你一个二进制字符串数组 strs 和两个整数 m 和 n 。
+请你找出并返回 strs 的最大子集的长度，该子集中 最多 有 m 个 0 和 n 个 1 。
+如果 x 的所有元素也是 y 的元素，集合 x 是集合 y 的 子集 。
+示例1：
+1234输入：strs = [&quot;10&quot;, &quot;0001&quot;, &quot;111001&quot;, &quot;1&quot;, &quot;0&quot;], m = 5, n = 3输出：4解释：最多有 5 个 0 和 3 个 1 的最大子集是 &#123;&quot;10&quot;,&quot;0001&quot;,&quot;1&quot;,&quot;0&quot;&#125; ，因此答案是 4 。其他满足题意但较小的子集包括 &#123;&quot;0001&quot;,&quot;1&quot;&#125; 和 &#123;&quot;10&quot;,&quot;1&quot;,&quot;0&quot;&#125; 。&#123;&quot;1110 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2023/04/19/%E7%9B%AE%E6%A0%87%E5%92%8C.html" title="目标和"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E7%9B%AE%E6%A0%87%E5%92%8C/00cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="目标和"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/19/%E7%9B%AE%E6%A0%87%E5%92%8C.html" title="目标和">目标和</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-19T15:26:21.000Z" title="发表于 2023-04-19 23:26:21">2023-04-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-19T15:28:12.097Z" title="更新于 2023-04-19 23:28:12">2023-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0/">算法练习</a></span></div><div class="content">题目描述
+题目链接：494. 目标和
 
-如何学习Spring？
+给你一个整数数组 nums 和一个整数 target 。
+向数组中的每个整数前添加 &#39;+&#39; 或 &#39;-&#39; ，然后串联起所有整数，可以构造一个 表达式 ：
 
-了解要研究的组件（类）基本使用
-用单元测试研究组件的特性
-试着自己实现类似功能（选讲）
-最后再深入阅读该组件的源码（避免讲）
+例如，nums = [2, 1] ，可以在 2 之前添加 &#39;+&#39; ，在 1 之前添加 &#39;-&#39; ，然后串联起来得到表达式 &quot;+2-1&quot; 。
 
-需要具备的前置知识？
+返回可以通过上述方法构造的、运算结果等于 target 的不同 表达式 的数目。
+示例1：
+12345678输入：nums = [1,1,1,1,1], target = 3输出：5解释：一共有 5 种方法让最终目标和为 3 。-1 + 1 + 1 + 1 + 1 = 3+1 - 1 + 1 + 1 + 1 = 3+1 + 1 - 1 + 1 + 1 = 3+1 + 1 + 1 - 1 + 1 = 3+1 + 1 + 1 + 1 - 1 = 3
 
-Spring的基础知识
-想探究Spring原理的好奇心
+示例2：
+12输入：nums = [1], target = 1输出：1
 
-学习Spring有什么收获 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2023/04/12/%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%9A%84%E4%BB%8B%E7%BB%8D.html" title="并查集的介绍"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%9A%84%E4%BB%8B%E7%BB%8D/01cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="并查集的介绍"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/12/%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%9A%84%E4%BB%8B%E7%BB%8D.html" title="并查集的介绍">并查集的介绍</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-12T02:20:31.000Z" title="发表于 2023-04-12 10:20:31">2023-04-12</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-12T02:40:07.896Z" title="更新于 2023-04-12 10:40:07">2023-04-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/">数据结构</a></span></div><div class="content">并查集定义
-并查集是一种树型的数据结构，用于处理一些不相交集合（disjoint sets）的合并及查询问题。
-并查集通常包含两种操作
-查找(Find)：查询两个元素是否在同一个集合中
-合并(Union)：把两个不相交的集合合并为一个集合
+提示：
 
+1 &lt;= nums.length &l ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2023/04/19/%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-II.html" title="最后一块石头的重量 II"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F%20II/00cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="最后一块石头的重量 II"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/19/%E6%9C%80%E5%90%8E%E4%B8%80%E5%9D%97%E7%9F%B3%E5%A4%B4%E7%9A%84%E9%87%8D%E9%87%8F-II.html" title="最后一块石头的重量 II">最后一块石头的重量 II</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-19T15:24:11.000Z" title="发表于 2023-04-19 23:24:11">2023-04-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-19T15:26:07.576Z" title="更新于 2023-04-19 23:26:07">2023-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0/">算法练习</a></span></div><div class="content">题目描述
+题目链接：1049. 最后一块石头的重量 II
 
+有一堆石头，用整数数组 stones 表示。其中 stones[i] 表示第 i 块石头的重量。
+每一回合，从中选出任意两块石头，然后将它们一起粉碎。假设石头的重量分别为 x 和 y，且 x &lt;= y。那么粉碎的可能结果如下：
 
-并查集思想请看以下示例：116. 省份数量
-有n个城市，其中一些彼此相连，另一些没有相连。如果城市a与城市b直接相连，且城市b与城市c直接相连，那么城市a与城市c间接相连。
-省份 是一组直接或间接相连的城市，组内不含其他没有相连的城市。
-给出一个n x n的矩阵isConnected，其中isConnected[i][j] = 1表示第i个城市和第j个城市直接相连，而isConnected[i][j] = 0表示二者不直接相连。
-给出任意的两个城市i和j，判断是否为同一省份。
-并查集的思想就是将每个城市看作一个节点，如果节点之间有联系，那么就选择一个节点为其父节点，例如：
+如果 x == y，那么两块石头都会被完全粉碎；
+如果 x != y，那么重量为 x 的石头将会完全粉碎，而重量为 y 的石头新重量为 y-x。
 
-若节点0和1有关联，那么随机选择0作为1的父节点：
+最后，最多只会剩下一块 石头。返回此石头 最小的可能重量 。如果没有石头剩下，就返回 0。
+示例1：
+1234567输入：stones = [2,7,4,1,8,1]输出：1解释：组合 2 和 4，得到 2，所以数组转化为 [2,7,1,8,1]，组合 7 和 8，得到 1，所以数组转化为 [2,1,1,1]，组合 2 和 1，得到 1，所以数组转化为 [1,1,1]，组合 1 和 1，得到 0，所以数组转化为 [1]，这就是最优值。
 
-若1和2有关联，那么就找到1的根节点0，即0与2有关联，随机选择0作为父节点：
+示例2：
+12输入：stones = [31,26,33,21,40]输出：5
 
-同理，3与4有关联，我们选择4为父节 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2023/04/11/%E5%B0%8F%E4%BA%8En%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0.html" title="小于n的最大数"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E5%B0%8F%E4%BA%8En%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0/01cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="小于n的最大数"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/11/%E5%B0%8F%E4%BA%8En%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0.html" title="小于n的最大数">小于n的最大数</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-11T02:32:45.000Z" title="发表于 2023-04-11 10:32:45">2023-04-11</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-11T02:36:39.453Z" title="更新于 2023-04-11 10:36:39">2023-04-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0/">算法练习</a></span></div><div class="content">题目描述数组nums中给定可以使用的1~9的数，返回由数组nums中的元素组成的小于n的最大数。
-示例 1：
-12输入：nums = &#123;1, 2, 9, 4&#125;，n = 2533输出：2499
+提示：
 
-示例 2：
-12输入：nums = &#123;1, 2, 5, 4&#125;，n = 2543输出：2542
+1 &lt;= sto ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2023/04/19/%E5%88%86%E5%89%B2%E7%AD%89%E5%92%8C%E5%AD%90%E9%9B%86.html" title="分割等和子集"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E5%88%86%E5%89%B2%E7%AD%89%E5%92%8C%E5%AD%90%E9%9B%86/00cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="分割等和子集"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/19/%E5%88%86%E5%89%B2%E7%AD%89%E5%92%8C%E5%AD%90%E9%9B%86.html" title="分割等和子集">分割等和子集</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-19T15:21:36.000Z" title="发表于 2023-04-19 23:21:36">2023-04-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-19T15:23:53.426Z" title="更新于 2023-04-19 23:23:53">2023-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0/">算法练习</a></span></div><div class="content">题目描述
+题目链接：416. 分割等和子集
 
-示例 3：
-12输入：nums = &#123;1, 2, 5, 4&#125;，n = 2541输出：2525
+给你一个 只包含正整数 的 非空 数组 nums 。请你判断是否可以将这个数组分割成两个子集，使得两个子集的元素和相等。
+示例1：
+123输入：nums = [1,5,11,5]输出：true解释：数组可以分割成 [1, 5, 5] 和 [11] 。
 
-示例 4：
-12输入：nums = &#123;1, 2, 9, 4&#125;，n = 2111输出：1999
+示例2：
+123输入：nums = [1,2,3,5]输出：false解释：数组不能分割成两个元素和相等的子集。
 
-示例 5：
-12输入：nums = &#123;5, 9&#125;，n = 5555输出：999
+提示：
 
-示例 6：
-12输入：nums = &#123;5, 9&#125;，n = 3输出：-1
+1 &lt;= nums.length &lt;= 200
+1 &lt;= nums[i] &lt;= 100
 
-我的解法思路
-对每一位先尝试使用相同数字
-如果没有相同数字，判断是否存在比当前数字更小的数字，如果有，则选择更小数字中的最大数，剩余的数字用最大数字
-如果没有，向前查找前一个数字有没有更小的数字
-直到回溯到第一个数字，就用位数更少但全部都是最 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2023/04/11/%E6%87%82%E8%BD%A6%E5%B8%9D%E4%BA%8C%E9%9D%A2%E5%A4%8D%E7%9B%98.html" title="懂车帝二面复盘"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E6%87%82%E8%BD%A6%E5%B8%9D%E4%BA%8C%E9%9D%A2%E5%A4%8D%E7%9B%98/01cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="懂车帝二面复盘"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/11/%E6%87%82%E8%BD%A6%E5%B8%9D%E4%BA%8C%E9%9D%A2%E5%A4%8D%E7%9B%98.html" title="懂车帝二面复盘">懂车帝二面复盘</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-11T02:20:13.000Z" title="发表于 2023-04-11 10:20:13">2023-04-11</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-11T02:30:08.039Z" title="更新于 2023-04-11 10:30:08">2023-04-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C/">面试经验</a></span></div><div class="content">时间：2023年04月10日 17:00
-场景数据推送到内存中，如何做到不产生并发问题。
-请看以下示例：
-1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889public class Main &#123;    public static void main(String[] args) throws InterruptedException &#123;        Test test = new Test();        Thread readThread = new Thread(new Runnable1(test));        readThread.start();        Thread writeThread = new Thread(new Runnable2(test) ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="page-number" href="/page/3/#content-inner">3</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/config/avatar/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">狼族少年、血狼</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">22</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://wpa.qq.com/msgrd?v=3&amp;uin=2370032534&amp;site=qq&amp;menu=yes&amp;jumpflag=1"><i class="fa-brands fa-qq"></i><span>添加博主QQ</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">本站所有博文均是博主的学习笔记与个人理解，来源于网络，如有<span style="color:red;font-weight:bold;">侵权</span>请<a target="_blank" rel="noopener" href="https://wpa.qq.com/msgrd?v=3&uin=2370032534&site=qq&menu=yes&jumpflag=1" style="color:#49B1F5;font-weight:bold">联系我</a>进行删除🥰。</div></div><div class="sticky_layout"><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">22</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2023-03-21T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">119.1k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-04-16T15:01:55.660Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By 狼族少年、血狼</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+我的题解方法一：动态规划思路求出当前数组和，若为奇数则不可分成两个相等的子集，若和为偶数，则需要子集的和必须为和&#x2F;2，也就是可以转化为从数组中选择若干数字，装入容量为和&#x2F;2的背包中，是否能装满，因此转化为01背包问题。
+代码1234567891011121314151617181920class Solution &#123;    public boolean canPartition(int[] nums) &#123;       ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2023/04/19/%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.html" title="不同的二叉搜索树"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/00cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="不同的二叉搜索树"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/19/%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.html" title="不同的二叉搜索树">不同的二叉搜索树</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-19T15:18:43.000Z" title="发表于 2023-04-19 23:18:43">2023-04-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-19T15:21:23.056Z" title="更新于 2023-04-19 23:21:23">2023-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0/">算法练习</a></span></div><div class="content">题目描述
+题目链接：96. 不同的二叉搜索树
+
+给你一个整数 n ，求恰由 n 个节点组成且节点值从 1 到 n 互不相同的 二叉搜索树 有多少种？返回满足题意的二叉搜索树的种数。
+示例1：
+
+12输入：n = 3输出：5
+
+示例2：
+12输入：n = 1输出：1
+
+提示：
+
+1 &lt;= n &lt;= 19
+
+我的题解方法一：动态规划思路选择根节点，则当前树的种数则为左边子树的总数乘以右边子树的种数，即：
+12//选择i为根节点，j-1为左边子树的节点个数，i-j为右边子树的节点个数dp[i] = dp[j - 1] * dp[i - j];
+
+代码123456789101112class Solution &#123;    public int numTrees(int n) &#123;        int[] dp = new int[n + 1];        dp[0] = 1;        for (int i = 1; i &lt; dp.length; i++) &#123;            for (int j = 1; j &lt;= i; j+ ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2023/04/19/%E6%95%B4%E6%95%B0%E6%8B%86%E5%88%86.html" title="整数拆分"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E6%95%B4%E6%95%B0%E6%8B%86%E5%88%86/00cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="整数拆分"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/19/%E6%95%B4%E6%95%B0%E6%8B%86%E5%88%86.html" title="整数拆分">整数拆分</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-19T15:15:52.000Z" title="发表于 2023-04-19 23:15:52">2023-04-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-19T15:18:23.319Z" title="更新于 2023-04-19 23:18:23">2023-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0/">算法练习</a></span></div><div class="content">题目描述
+题目链接：343. 整数拆分
+
+给定一个正整数 n ，将其拆分为 k 个 正整数 的和（ k &gt;= 2 ），并使这些整数的乘积最大化。
+返回 你可以获得的最大乘积 。
+示例1：
+123输入: n = 2输出: 1解释: 2 = 1 + 1, 1 × 1 = 1。
+
+示例2：
+123输入: n = 10输出: 36解释: 10 = 3 + 3 + 4, 3 × 3 × 4 = 36。
+
+提示：
+
+2 &lt;= n &lt;= 58
+
+我的题解方法一：动态规划思路考虑一个整数拆或者不拆，则递推公式为：
+1dp[i] = Math.max(dp[i - j] * j, (i - j) * j)
+
+代码123456789101112class Solution &#123;    public int integerBreak(int n) &#123;        int[] dp = new int[n];        dp[0] = 1;        for (int i = 1; i &lt; dp.length; i++) &#123;             ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2023/04/19/%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84-II.html" title="不同路径 II"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84%20II/00cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="不同路径 II"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/19/%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84-II.html" title="不同路径 II">不同路径 II</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-19T15:11:38.000Z" title="发表于 2023-04-19 23:11:38">2023-04-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-19T15:15:39.673Z" title="更新于 2023-04-19 23:15:39">2023-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0/">算法练习</a></span></div><div class="content">题目描述
+题目链接：63. 不同路径 II
+
+一个机器人位于一个 m x n 网格的左上角 （起始点在下图中标记为 “Start” ）。
+机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为 “Finish”）。
+现在考虑网格中有障碍物。那么从左上角到右下角将会有多少条不同的路径？
+网格中的障碍物和空位置分别用 1 和 0 来表示。
+示例1：
+
+123456输入：obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]输出：2解释：3x3 网格的正中间有一个障碍物。从左上角到右下角一共有 2 条不同的路径：1. 向右 -&gt; 向右 -&gt; 向下 -&gt; 向下2. 向下 -&gt; 向下 -&gt; 向右 -&gt; 向右
+
+示例2：
+
+12输入：obstacleGrid = [[0,1],[0,0]]输出：1
+
+提示：
+
+m == obstacleGrid.length
+n == obstacleGrid[i].length
+1 &lt;= m, n &lt;= 100
+obstacleGrid[i][j] 为 0 或 1
+ ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2023/04/19/%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.html" title="不同路径"><img class="post-bg" src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/articles/%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84/00cover.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="不同路径"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/04/19/%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.html" title="不同路径">不同路径</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-04-19T15:06:58.000Z" title="发表于 2023-04-19 23:06:58">2023-04-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-04-19T15:11:19.202Z" title="更新于 2023-04-19 23:11:19">2023-04-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AE%97%E6%B3%95%E7%BB%83%E4%B9%A0/">算法练习</a></span></div><div class="content">题目描述
+题目链接：62. 不同路径
+
+一个机器人位于一个 m x n 网格的左上角 （起始点在下图中标记为 “Start” ）。
+机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为 “Finish” ）。
+问总共有多少条不同的路径？
+
+12输入：m = 3, n = 7输出：28
+
+示例1：
+1234567输入：m = 3, n = 2输出：3解释：从左上角开始，总共有 3 条路径可以到达右下角。1. 向右 -&gt; 向下 -&gt; 向下2. 向下 -&gt; 向下 -&gt; 向右3. 向下 -&gt; 向右 -&gt; 向下
+
+示例2：
+12输入：m = 7, n = 3输出：28
+
+示例3：
+12输入：m = 3, n = 3输出：6
+
+提示：
+
+1 &lt;= m, n &lt;= 100
+题目数据保证答案小于等于 2 * 10(9)
+
+我的题解方法一：动态规划思路假设当前位置为(i, j)，那么有两种路径可以到达当前位置，即(i-1, j)和(i, j-1)，因此到达当前位置的路径数可由左边和上边的路径推出，因此递推公式为：
+1dp[i][j ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/#content-inner">6</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://geekwolfman-blog.oss-cn-chengdu.aliyuncs.com/config/avatar/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">狼族少年、血狼</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">54</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://wpa.qq.com/msgrd?v=3&amp;uin=2370032534&amp;site=qq&amp;menu=yes&amp;jumpflag=1"><i class="fa-brands fa-qq"></i><span>添加博主QQ</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">本站所有博文均是博主的学习笔记与个人理解，来源于网络，如有<span style="color:red;font-weight:bold;">侵权</span>请<a target="_blank" rel="noopener" href="https://wpa.qq.com/msgrd?v=3&uin=2370032534&site=qq&menu=yes&jumpflag=1" style="color:#49B1F5;font-weight:bold">联系我</a>进行删除🥰。</div></div><div class="sticky_layout"><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">54</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2023-03-21T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">135.4k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-04-19T15:35:48.381Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By 狼族少年、血狼</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
   init: (str) => {
     window.typed = new Typed('#subtitle', Object.assign({
       strings: str,
